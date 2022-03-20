@@ -5,22 +5,31 @@ import './Nav.css'
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import {searchdataitem} from "../redux/action/action"
+import LoaderComp from './Loader';
 
 //const Nav = (state=initialState,action) => {
    const Nav = () => {
     const dispatch = useDispatch();
     const aState = useSelector((state) => state.cake.searchData);
     const [searchData, setsearchData] = useState(aState);
-
+    const [loader, setloader] = useState(false)
   
   const handleChange=(ev)=>{
+    setloader(true)
     setsearchData(ev.target.value)
     dispatch(searchdataitem(ev.target.value))
-    console.log(aState)  
+    console.log(aState) 
+    setTimeout();
   }
+  const stopLoader=()=>{
+    setloader(false)
+  }
+  setTimeout(function() {
+    stopLoader()
+  }, 300);
   return (
     <div className="nav">
-      
+        {loader && <LoaderComp /> }
         <div className="imgDiv">
             <img src={Logo} alt="" />
         </div>
