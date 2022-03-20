@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+## View: https://infraplan-internship-assignment.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/64727650/159155752-b40e9df5-15e8-4d6d-983e-9e94b92dab0d.png)
 ![image](https://user-images.githubusercontent.com/64727650/159155897-2ca81cdb-17a0-40a5-b5db-ea733fcc4cf5.png)
