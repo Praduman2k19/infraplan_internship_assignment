@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: left;
+    font-size: 10pt;
+    width: 25vw;
+    min-width: 320px;
+    margin: .5vw;
+    background: white;
+    padding: 0.6vw;
+    border-radius: .5vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.card .imgDiv{
+    width: 25%;
+    /* background: #000; */
+}
+.card .imgDiv img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+.information{
+    /* padding-right: 5px; */
+    /* background: rgb(192, 138, 138); */
+    width: 75%;
+    text-overflow: clip;
+}
+.information .nameBox{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    
+}
+.information .nameBox .name{
+    padding-top: 15px;
+    font-weight: 700;
+}
+.information .nameBox .nat{
+    color: rgba(0, 0, 0, 0.336);
+}
+.information .email{
+    text-overflow: initial;
+    font-weight: 500;
+}

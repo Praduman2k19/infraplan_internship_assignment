@@ -1,0 +1,18 @@
+.nav{
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.061); */
+    padding: 15px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.084);
+}
+
+.nav .imgDiv{
+}
+.nav .imgDiv img{
+    height: 50px;
+}
+.nav .searchDiv{
+
+}
